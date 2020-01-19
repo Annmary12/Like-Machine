@@ -1,0 +1,50 @@
+.card {
+  img {
+      height: 120px;
+      object-fit: fill;
+  }
+
+  height: 300px;
+
+  a {
+      color: black;
+      display: block;
+      padding-bottom: 1rem;
+      font-weight: 700;
+      &:hover {
+          text-decoration: none;
+      }
+  }
+
+  .likes {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .vote {
+    display: flex;
+    align-items: center;
+
+    .fa.fa-heart{
+      padding-right: 8px;
+      &.liked {
+        color: #F62F5E;
+      }
+    }
+  }
+  .footer {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.fa {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fa.fa-trash:hover {
+  color: transparentize(#F62F5E, 0.5);
+}
