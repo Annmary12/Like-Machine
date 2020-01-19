@@ -1,8 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47bcc30a-056e-479f-ad32-1c40ea0b7f1b/deploy-status)](https://app.netlify.com/sites/like-machine/deploys)
 
-# Like Machine
+## Like Machine
 
 ## Hosted Link
-[like-machine]()
+[like-machine](https://like-machine.netlify.com/)
 
 ## Features
 * Users can login with facebook
@@ -15,6 +16,7 @@
 ## Technology Stack Used
 * React a javascript library for building user interfaces
 * React Hooks
+* ReactStrap: css framework
 
 ## Project Structure
 
